@@ -90,17 +90,17 @@
                             <goal>unpack</goal>
                         </goals>
                         <configuration>
-                            <markersDirectory xmlns:ns2="http://maven.apache.org/POM/4.0.0">do_not_checkin/markers</markersDirectory>
-                            <artifactItems xmlns:ns2="http://maven.apache.org/POM/4.0.0">
-                                <artifactItem>
-                                    <groupId>jslibraries.files</groupId>
-                                    <artifactId>jslib_yui</artifactId>
-                                    <version>3.7.2</version>
-                                    <type>war</type>
-                                    <overWrite>false</overWrite>
-                                    <outputDirectory>${phresco.src.root.dir}/main/webapp/lib</outputDirectory>
-								</artifactItem>
-								</artifactItems>
+                            <ns2:markersDirectory xmlns:ns2="http://maven.apache.org/POM/4.0.0">do_not_checkin/markers</ns2:markersDirectory>
+                            <ns2:artifactItems xmlns:ns2="http://maven.apache.org/POM/4.0.0">
+                                <ns2:artifactItem>
+                                    <ns2:groupId>jslibraries.files</ns2:groupId>
+                                    <ns2:artifactId>jslib_yui</ns2:artifactId>
+                                    <ns2:version>3.7.2</ns2:version>
+                                    <ns2:type>war</ns2:type>
+                                    <ns2:overWrite>false</ns2:overWrite>
+                                    <ns2:outputDirectory>${phresco.src.root.dir}/main/webapp/lib</ns2:outputDirectory>
+								</ns2:artifactItem>
+								</ns2:artifactItems>
                         </configuration>
                     </execution>
                   <execution>
